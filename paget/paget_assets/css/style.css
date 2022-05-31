@@ -1,0 +1,178 @@
+
+   
+img { 
+    width: 100%; 
+} 
+/*header*/ 
+header { 
+    background: #d7c9af; 
+    text-align: center 
+} 
+header img { 
+    width: 65%; 
+} 
+header h1 { 
+    color: white; 
+    font-size: 16px; 
+} 
+/*navigation*/ 
+header .navbar { 
+    display: block; 
+    margin-right: 0; 
+    : white; 
+} 
+header .navbar ul li{ 
+    margin:10px 20px; 
+} 
+header .navbar ul li a { 
+    color: white; 
+    text-transform: uppercase; 
+} 
+header .navbar > li > a:focus, header .navbar > li > a:hover { 
+    background: transparent; 
+} 
+header .navbar ul li a:hover { 
+    color: #ddd; 
+    text-decoration:none; 
+} 
+/*imgaccueil*/ 
+#imgaccueil { 
+    padding: 20px 0px; 
+} 
+/*bienvenue*/ 
+#bienvenue { 
+    background: #b3a07f 
+} 
+#bienvenue h2 { 
+    color: white 
+} 
+#bienvenue p { 
+    color: white 
+} 
+#bienvenue img { 
+    margin: 20px auto; 
+} 
+/*btjoindre*/ 
+#btjoindre { 
+    background: #d7c9af; 
+    padding: 20px; 
+    text-align: center; 
+} 
+#btjoindre p { 
+} 
+#btjoindre button { 
+    background: #7d7666; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 35px 25px; 
+} 
+#btjoindre button:hover { 
+    background: #c28b66; 
+} 
+/*cabinet*/ 
+#cabinet { 
+    text-align: center; 
+} 
+#cabinet h2 { 
+    color: #d9cab5; 
+} 
+#cabinet h3 { 
+    color: #b0b2af; 
+    font-size: 14px; 
+    border-bottom: 1px solid #b0b2af; 
+    padding: 20px 0px; 
+    width: 200px; 
+    margin: 20px auto; 
+} 
+#cabinet img { 
+    width: 70%; 
+} 
+#cabinet p { 
+    color: #676566; 
+    margin-top: 20px 
+} 
+#cabinet a { 
+    color: #999; 
+    font-style: italic; 
+} 
+#cabinet a:hover { 
+    color: #ccc; 
+} 
+/*footer*/ 
+footer { 
+    background: #b1a17f; 
+    padding: 20px 0px; 
+    margin-top: 20px; 
+    text-align: center; 
+} 
+footer img { 
+    width: 60%; 
+    margin: 10px 0px; 
+} 
+footer p { 
+    text-align: center; 
+    color: white; 
+    margin: 10px 0px; 
+} 
+footer a { 
+    color: white 
+} 
+footer a:hover { 
+    color: #ccc 
+} 
+#copyright { 
+    margin-top: 10px; 
+    padding: 10px; 
+    border-top: 1px solid white; 
+    color: white; 
+} 
+
+/* Petit écran sm (téléphone mode paysage, 576px et plus)*/  
+@media (min-width: 576px) {  
+ 
+}  
+ 
+/* écran Moyen md (tablette, 768px et plus)*/  
+@media (min-width: 768px) {  
+  header{
+      padding:10px 20px
+  }
+  header img,footer img {
+      width: 100%;
+  } 
+  header .navbar { 
+      margin-top:20px; 
+  } 
+  .navbar > li > a { 
+      padding:0 20px; 
+  } 
+  .navbar-collapse{ 
+      padding:0; 
+  } 
+  #btjoindre p { 
+      text-align:left; 
+      font-size:16px; 
+      margin-top:10px; 
+  } 
+}  
+/* écran large ld (ordinateur, 992px et plus)*/  
+@media (min-width: 992px) {  
+  #bienvenue h2 { 
+      margin:20px; 
+  } 
+  #bienvenue p { 
+      font-size:18px; 
+      margin-left:20px; 
+      line-height:30px 
+  } 
+  #btjoindre p { 
+      font-size:18px; 
+  } 
+}   
+/* écran extra large xl (ordinateur grand écran, 1200px et plus)*/
+@media (min-width: 1200px) { 
+  #bienvenue p { 
+      line-height:40px 
+  } 
+}   
